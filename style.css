@@ -1,22 +1,54 @@
+*{
+    box-sizing: content-box;
+}
+
+.main_title{
+    width: 700px;
+    height: auto;
+    border-bottom:2px solid rgb(0, 0, 109); 
+    margin-left: 60px;
+}
+
+.recipe_list li{
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
+
+.recipe_list a{
+    display: block;
+}
+
 li{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 5px;
 }
 
-.the-dish{
+.the_dish{
     font-family: 'Lucida Grande';
+    border-bottom: 2px solid rgb(0, 0, 109);
 }
 
-.serving_size{
-    margin-left: 5px;
+.serving_size {
+    display: inline;
+
+}
+
+
+.serving{
+    display: inline;
+    font-size: larger;
+    margin-left: 10px;
     color: blue;
+    font-weight: bold;
 }
 
 
 .button{
-    background-color: lightgrey;
-    color: blue;
+    background-color: rgb(4, 36, 97);
+    color: white;
     padding: 10px 20px; 
+   border: 1px solid black; 
 }
 
 .ingredient_serving{
