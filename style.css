@@ -27,6 +27,7 @@ li{
 .the_dish{
     font-family: 'Lucida Grande';
     border-bottom: 2px solid rgb(0, 0, 109);
+    margin: 30px;
 }
 
 .serving_size {
@@ -53,4 +54,8 @@ li{
 
 .ingredient_serving{
     display: inline-block;
+}
+
+.content-space{
+    margin: 30px;
 }
